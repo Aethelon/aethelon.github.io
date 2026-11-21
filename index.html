@@ -1,423 +1,242 @@
 <!doctype html>
 <html lang="pt-BR">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aethelon | Engenharia de precisão e design de produto</title>
-    <meta
-      name="description"
-      content="Aethelon é um ecossistema de engenharia de alta performance focado em produtos digitais escaláveis, design de excelência e soluções SaaS orientadas a resultado."
-    />
-    <meta
-      name="keywords"
-      content="Aethelon, engenharia de software, desenvolvimento web, SaaS, arquitetura de software, UI UX, startup, tecnologia"
-    />
-    <meta name="author" content="Aethelon" />
-    <meta name="robots" content="index, follow" />
-    <meta name="theme-color" content="#faf9f5" />
-    <link rel="canonical" href="https://aethelon.github.io/Portfolio-Aethelon/" />
-
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="pt_BR" />
-    <meta property="og:site_name" content="Aethelon" />
-    <meta
-      property="og:title"
-      content="Aethelon | Engenharia de precisão e design de produto"
-    />
-    <meta
-      property="og:description"
-      content="Arquitetura robusta, design centrado no usuário e visão de produto para construir soluções digitais de alto impacto."
-    />
-    <meta
-      property="og:image"
-      content="https://repository-images.githubusercontent.com/1029717274/350be24a-f9c6-42d9-903c-2e54ab2f5078"
-    />
-    <meta
-      property="og:url"
-      content="https://aethelon.github.io/Portfolio-Aethelon/"
-    />
-
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      name="twitter:title"
-      content="Aethelon | Engenharia de precisão e design de produto"
-    />
-    <meta
-      name="twitter:description"
-      content="Transformamos desafios complexos em produtos digitais escaláveis, elegantes e orientados a resultado."
-    />
-    <meta
-      name="twitter:image"
-      content="https://repository-images.githubusercontent.com/1029717274/350be24a-f9c6-42d9-903c-2e54ab2f5078"
-    />
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aethelon — Estúdio de design e engenharia de software</title>
+    <meta name="description" content="Conheça Flux e Nodelizr, produtos da Aethelon, estúdio brasileiro de design de produto e engenharia de software.">
+    <meta name="theme-color" content="#f4eee3">
+    <link rel="canonical" href="https://aethelon.github.io/Portfolio-Aethelon/">
+    <link rel="icon" href="./assets/monogram.png">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:site_name" content="Aethelon">
+    <meta property="og:title" content="Aethelon — Design de produto e engenharia">
+    <meta property="og:description" content="Um estúdio brasileiro por trás do Flux e do Nodelizr.">
+    <meta property="og:url" content="https://aethelon.github.io/Portfolio-Aethelon/">
+    <meta property="og:image" content="https://raw.githubusercontent.com/Aethelon/.github/main/profile/assets/aethelon.png">
+    <meta property="og:image:alt" content="Aethelon, design de produto e engenharia no Brasil.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Aethelon — Design de produto e engenharia">
+    <meta name="twitter:description" content="Conheça os produtos Flux e Nodelizr.">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/Aethelon/.github/main/profile/assets/aethelon.png">
+    <link rel="preload" href="./assets/fonts/playfair-display.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="./styles.css">
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Aethelon",
-        "url": "https://aethelon.github.io/Portfolio-Aethelon/",
-        "description": "Ecossistema de engenharia de alta performance focado em produtos digitais escaláveis e design de excelência.",
-        "email": "mailto:aetheloncontact@gmail.com",
-        "sameAs": ["https://github.com/Aethelon"]
-      }
+      {"@context":"https://schema.org","@type":"Organization","name":"Aethelon Tech","url":"https://aethelon.github.io/Portfolio-Aethelon/","description":"Estúdio brasileiro de design de produto e engenharia de software.","email":"aetheloncontact@gmail.com","sameAs":["https://github.com/Aethelon"]}
     </script>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-
-    <link rel="stylesheet" href="./styles.css" />
   </head>
-
   <body>
-    <div class="site-shell">
-      <header class="site-header">
-        <div class="container">
-          <a class="brand" href="#content-home">
-            AETHELON
+    <a class="skip" href="#principal">Pular para o conteúdo</a>
+    <header class="cover" id="content-home">
+      <video class="cover-film" id="cover-film" poster="./assets/hero-poster.webp?v=3d5afd71" preload="none"
+             muted loop playsinline aria-hidden="true" tabindex="-1">
+        <source media="(max-width: 40rem)" src="./assets/hero-mobile.mp4?v=7ada9aa0" type="video/mp4"
+                data-poster="./assets/hero-mobile-poster.webp?v=e1b913db">
+        <source src="./assets/hero-loop.mp4?v=9015ffb4" type="video/mp4">
+      </video>
+      <div class="wrap">
+        <div class="mast">
+          <a class="brand" href="#content-home" aria-label="Aethelon, início">
+            <img src="./assets/monogram.png" width="32" height="30" alt="">
+            <span>Aethelon</span>
           </a>
-
-          <nav class="top-nav">
-            <button
-              onclick="switchTab('home')"
-              id="tab-home"
-              class="tab-btn active"
-            >
-              Home
-            </button>
-            <button onclick="switchTab('projetos')" id="tab-projetos" class="tab-btn">
-              Projetos
-            </button>
-            <button onclick="switchTab('roadmap')" id="tab-roadmap" class="tab-btn">
-              Roadmap
-            </button>
+          <nav aria-label="Navegação principal">
+            <a href="#content-projetos">Produtos</a>
+            <a href="#estudio">Estúdio</a>
+            <a href="#equipe">Equipe</a>
+            <a href="#contato">Contato</a>
           </nav>
         </div>
-      </header>
-
-      <main class="container">
-        <section id="content-home" class="tab-content active">
-          <article class="hero">
-            <p class="eyebrow">Engineering precision • Design excellence</p>
-            <h1 class="display-title">
-              Tecnologia com estratégia, estética e impacto real.
-            </h1>
-            <p class="hero-lead">
-              A Aethelon é um ecossistema de engenharia de alta performance.
-              Unimos arquitetura robusta, produto e experiência para transformar
-              desafios complexos em soluções digitais escaláveis.
-            </p>
-            <div class="hero-actions">
-              <a class="btn btn-primary" href="https://github.com/Aethelon" target="_blank"
-                >Ver organização</a
-              >
-              <a class="btn btn-secondary" href="mailto:aetheloncontact@gmail.com"
-                >Falar com a equipe</a
-              >
-            </div>
-          </article>
-
-          <div class="three-grid section-gap">
-            <article class="card">
-              <h3>Quem somos</h3>
-              <p>
-                Operamos como um laboratório técnico orientado a produto, onde
-                cada decisão de interface, arquitetura e entrega é feita com
-                visão de longo prazo.
-              </p>
-            </article>
-
-            <article class="card">
-              <h3>Objetivos</h3>
-              <ul>
-                <li>Construir soluções SaaS com padrão enterprise.</li>
-                <li>Desenvolver ferramentas developer-first de alto impacto.</li>
-                <li>Escalar parcerias estratégicas e colaboração open source.</li>
-              </ul>
-            </article>
-
-            <article class="card">
-              <h3>Pilares estratégicos</h3>
-              <ul>
-                <li>Engineering First: código limpo, escalável e resiliente.</li>
-                <li>Design-Centric: experiência refinada em cada interface.</li>
-                <li>Product Vision: foco em valor real e longevidade.</li>
-              </ul>
-            </article>
-          </div>
-
-          <div class="split-grid section-gap">
-            <article class="card dark-card">
-              <h3>Stack & Ecossistema</h3>
-              <div class="stack-list">
-                <span>React</span>
-                <span>Angular</span>
-                <span>Node.js</span>
-                <span>NestJS</span>
-                <span>Java</span>
-                <span>Spring</span>
-                <span>PHP</span>
-                <span>Laravel</span>
-                <span>TypeScript</span>
-                <span>Figma</span>
-                <span>Docker</span>
-                <span>GitHub Actions</span>
-              </div>
-            </article>
-
-            <article class="card">
-              <h3>Equipe</h3>
-              <ul class="team-list">
-                <li class="member-row">
-                  <div class="member-main">
-                    <img
-                      src="https://avatars.githubusercontent.com/u/114788642?v=4"
-                      alt="Bruno Magno"
-                    />
-                    <strong>Bruno Magno</strong>
-                  </div>
-                  <div class="social-group">
-                    <a href="https://www.linkedin.com/in/brunomagnotm/" target="_blank" aria-label="LinkedIn Bruno Magno">
-                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" width="16" height="16">
-                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
-                      </svg>
-                    </a>
-                    <a href="https://github.com/brunoliratm" target="_blank" aria-label="GitHub Bruno Magno">
-                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" width="16" height="16">
-                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                      </svg>
-                    </a>
-                  </div>
-                </li>
-
-                <li class="member-row">
-                  <div class="member-main">
-                    <img
-                      src="https://avatars.githubusercontent.com/u/127964717?v=4"
-                      alt="Paulo de Araujo"
-                    />
-                    <strong>Paulo de Araujo</strong>
-                  </div>
-                  <div class="social-group">
-                    <a href="https://www.linkedin.com/in/paulo-araujo-dev/" target="_blank" aria-label="LinkedIn Paulo de Araujo">
-                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" width="16" height="16">
-                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
-                      </svg>
-                    </a>
-                    <a href="https://github.com/Paulo-Araujo-Jr" target="_blank" aria-label="GitHub Paulo de Araujo">
-                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" width="16" height="16">
-                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                      </svg>
-                    </a>
-                  </div>
-                </li>
-
-                <li class="member-row">
-                  <div class="member-main">
-                    <img
-                      src="https://avatars.githubusercontent.com/u/126338859?v=4"
-                      alt="Marcelo Mesquita"
-                    />
-                    <strong>Marcelo Mesquita</strong>
-                  </div>
-                  <div class="social-group">
-                    <a href="https://www.linkedin.com/in/marcelo-g-mesquita/" target="_blank" aria-label="LinkedIn Marcelo Mesquita">
-                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" width="16" height="16">
-                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
-                      </svg>
-                    </a>
-                    <a href="https://github.com/MrMesquita" target="_blank" aria-label="GitHub Marcelo Mesquita">
-                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" width="16" height="16">
-                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                      </svg>
-                    </a>
-                  </div>
-                </li>
-
-                <li class="member-row">
-                  <div class="member-main">
-                    <img
-                      src="https://avatars.githubusercontent.com/u/126925371?v=4"
-                      alt="Leandro Oliveira"
-                    />
-                    <strong>Leandro Oliveira</strong>
-                  </div>
-                  <div class="social-group">
-                    <a href="https://www.linkedin.com/in/leandro-oliveira-a34619278/" target="_blank" aria-label="LinkedIn Leandro Oliveira">
-                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" width="16" height="16">
-                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
-                      </svg>
-                    </a>
-                    <a href="https://github.com/leandrouser" target="_blank" aria-label="GitHub Leandro Oliveira">
-                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" width="16" height="16">
-                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                      </svg>
-                    </a>
-                  </div>
-                </li>
-              </ul>
-            </article>
-          </div>
-        </section>
-
-        <section id="content-projetos" class="tab-content">
-          <article class="project-wrap">
-            <div class="project-header">
-              <h2>Nodelizr</h2>
-              <span class="mono">open-source • node scaffolding</span>
-            </div>
-            <div class="project-body">
-              <div class="project-preview">
-                <img
-                  src="https://repository-images.githubusercontent.com/1029717274/350be24a-f9c6-42d9-903c-2e54ab2f5078"
-                  alt="Prévia do projeto Nodelizr"
-                />
-              </div>
-              <div class="project-copy">
-                <p>
-                  Nodelizr é uma ferramenta de código aberto para gerar
-                  instantaneamente modelos de projetos Node.js modernos e
-                  prontos para uso, acelerando setup, padronização e produtividade.
-                </p>
-                <div class="tags">
-                  <span class="tag">Angular</span>
-                  <span class="tag">Node.js</span>
-                </div>
-                <a
-                  class="link-inline"
-                  href="https://github.com/Aethelon/Nodelizr"
-                  target="_blank"
-                  >Acessar repositório no GitHub</a
-                >
-              </div>
-            </div>
-          </article>
-
-          <div class="section-gap">
-            <p class="eyebrow">Projetos em desenvolvimento</p>
-          </div>
-
-          <article class="project-wrap section-gap">
-            <div class="project-header">
-              <h2>Flux</h2>
-              <span class="mono">em desenvolvimento • node + next</span>
-            </div>
-            <div class="project-body">
-              <div class="project-preview project-preview-empty">
-                <div class="project-icon" aria-hidden="true">
-                  <svg viewBox="0 0 64 64" fill="none">
-                    <path
-                      d="M12 22a6 6 0 0 1 6-6h10l4 4h14a6 6 0 0 1 6 6v18a6 6 0 0 1-6 6H18a6 6 0 0 1-6-6V22Z"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linejoin="round"
-                    />
-                    <path d="M12 26h40" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-                  </svg>
-                </div>
-              </div>
-              <div class="project-copy">
-                <p>
-                  Flux é um ecossistema web SaaS de gestão comercial inteligente,
-                  com stack Node.js (NestJS) + Next.js, unificando estoque, vendas
-                  e ordens de serviço com previsões de demanda, reposição
-                  inteligente e insights estratégicos.
-                </p>
-                <div class="tags">
-                  <span class="tag">Node.js</span>
-                  <span class="tag">NestJS</span>
-                  <span class="tag">Next.js</span>
-                  <span class="tag">PostgreSQL</span>
-                </div>
-                <span class="link-inline">Em desenvolvimento</span>
-              </div>
-            </div>
-          </article>
-
-          <div class="cta-coral">
-            <h3>Vamos construir o próximo case juntos.</h3>
-            <p>
-              Estamos abertos para parcerias estratégicas, colaborações
-              open-source e produtos digitais que exigem execução técnica de alto nível.
-            </p>
-            <a class="btn btn-secondary" href="https://github.com/Aethelon" target="_blank"
-              >Explorar mais projetos</a
-            >
-          </div>
-        </section>
-
-        <section id="content-roadmap" class="tab-content">
-          <div class="roadmap-shell">
-            <article class="roadmap-month">
-              <p class="month-label">Janeiro 2026</p>
-              <div class="timeline-item">
-                <h4>Lançamento Alpha</h4>
-                <p>Deploy inicial da nova infraestrutura core.</p>
-              </div>
-              <div class="timeline-item">
-                <h4>Rebranding Zekra → Aethelon</h4>
-                <p>Unificação da identidade visual em todos os canais digitais.</p>
-              </div>
-            </article>
-
-            <article class="roadmap-month">
-              <p class="month-label">Fevereiro 2026</p>
-              <div class="timeline-item">
-                <h4>Expansão da Equipe</h4>
-                <p>Abertura de vagas.</p>
-              </div>
-            </article>
-
-            <article class="roadmap-month">
-              <p class="month-label">Março — Junho 2026</p>
-              <div class="timeline-item">
-                <h4>Sistema de Gerenciamento e Vendas</h4>
-                <p>
-                  Período focado na elaboração da documentação do produto e na
-                  prototipação/design da aplicação, definindo fluxos,
-                  arquitetura das telas e direcionamento técnico da solução.
-                </p>
-              </div>
-            </article>
-          </div>
-        </section>
-      </main>
-
-      <footer class="site-footer">
-        <div class="container">
-          <span>@2026 Aethelon</span>
-          <div style="display: inline-flex; gap: 18px">
-            <a href="mailto:aetheloncontact@gmail.com" target="_blank">E-mail</a>
-            <a href="https://github.com/Aethelon" target="_blank">GitHub</a>
+        <div class="cover-copy">
+          <h1>Software para quem vende<br> e para quem <em>desenvolve.</em></h1>
+          <p>O Flux reúne vendas, estoque e produção. O Nodelizr gera a estrutura inicial de projetos Node.js.</p>
+          <div class="cover-actions">
+            <a href="#flux">Conheça o Flux</a>
+            <a href="#nodelizr">Explore o Nodelizr</a>
           </div>
         </div>
-      </footer>
-    </div>
+        <button class="cover-playback" type="button" aria-controls="cover-film" aria-label="Reproduzir vídeo de fundo" hidden>
+          <span aria-hidden="true"></span>
+        </button>
+      </div>
+      <script type="module">
+        const video = document.querySelector(".cover-film");
+        const control = document.querySelector(".cover-playback");
+        const motion = matchMedia("(prefers-reduced-motion: reduce)");
+        const mobileSource = video.querySelector("source[media]");
+        const compact = matchMedia(mobileSource.media);
+        const desktopPoster = video.poster;
+        if (compact.matches) video.poster = mobileSource.dataset.poster;
+        let wantsPlayback = !motion.matches;
+        let inView = false;
 
-    <script>
-      function switchTab(tabId) {
-        document.querySelectorAll(".tab-content").forEach((content) => {
-          content.classList.remove("active");
-        });
-
-        document.querySelectorAll(".tab-btn").forEach((btn) => {
-          btn.classList.remove("active");
-        });
-
-        const activeContent = document.getElementById("content-" + tabId);
-        if (activeContent) {
-          activeContent.classList.add("active");
+        function updatePlayback() {
+          if (wantsPlayback && inView) {
+            video.play().catch(() => {});
+          } else {
+            video.pause();
+          }
         }
 
-        const activeBtn = document.getElementById("tab-" + tabId);
-        if (activeBtn) {
-          activeBtn.classList.add("active");
+        function updateControl() {
+          control.classList.toggle("is-playing", !video.paused);
+          control.setAttribute("aria-label", video.paused ? "Reproduzir vídeo de fundo" : "Pausar vídeo de fundo");
         }
-      }
+
+        video.addEventListener("play", updateControl);
+        video.addEventListener("pause", updateControl);
+        compact.addEventListener("change", () => {
+          video.poster = compact.matches ? mobileSource.dataset.poster : desktopPoster;
+          video.load();
+          updatePlayback();
+        });
+        control.addEventListener("click", () => {
+          wantsPlayback = video.paused;
+          updatePlayback();
+        });
+        motion.addEventListener("change", () => {
+          wantsPlayback = !motion.matches;
+          updatePlayback();
+        });
+        new IntersectionObserver(([entry]) => {
+          inView = entry.isIntersecting;
+          updatePlayback();
+        }).observe(video);
+        control.hidden = false;
+      </script>
+    </header>
+    <main id="principal">
+      <section class="work wrap" id="content-projetos" aria-labelledby="work-title">
+        <h2 id="work-title">Nossos produtos</h2>
+        <article class="project flux" id="flux" aria-labelledby="flux-title">
+          <div class="project-panel">
+            <div class="flux-player">
+              <video class="flux-film" id="flux-film" width="1920" height="1080" autoplay muted playsinline
+                     poster="./assets/flux-poster.webp" aria-label="Tour do Flux, da venda à gestão">
+                <source src="./assets/flux-tour.mp4" type="video/mp4">
+                Seu navegador não suporta a reprodução deste vídeo.
+              </video>
+              <button class="outline flux-replay" type="button" aria-controls="flux-film" hidden>Rever vídeo</button>
+            </div>
+            <div class="project-description">
+              <p class="category">Varejo e produção</p>
+              <h3 id="flux-title">Flux</h3>
+              <p>Vendas, estoque e encomendas no mesmo lugar. Acompanhe o que acontece no caixa quando um produto entra no pedido.</p>
+            </div>
+          </div>
+          <aside class="project-note">
+            <p>Consulte o código e a documentação da aplicação.</p>
+            <a class="outline" href="https://github.com/Aethelon/Flux-App">Conhecer o Flux</a>
+          </aside>
+        </article>
+        <article class="project node" id="nodelizr" aria-labelledby="node-title">
+          <div class="project-panel">
+            <div class="project-description">
+              <p class="category">Ferramenta open source</p>
+              <h3 id="node-title">Nodelizr</h3>
+              <p>Um gerador de projetos Node.js. Escolha um template e as dependências, explore os arquivos e baixe o código pronto para começar.</p>
+              <a class="inline-link" href="https://github.com/Aethelon/Nodelizr">Ver código-fonte</a>
+            </div>
+            <a class="node-art" href="https://nodelizr.vercel.app" aria-label="Abrir o gerador Nodelizr">
+              <img src="./assets/nodelizr.png" width="1440" height="916" loading="lazy"
+                   alt="Nodelizr com a árvore de arquivos, o package.json e o botão de geração do projeto.">
+            </a>
+          </div>
+          <aside class="project-note">
+            <p>Comece com uma API, uma ferramenta de linha de comando ou um worker.</p>
+            <a class="outline" href="https://nodelizr.vercel.app">Abrir o gerador</a>
+          </aside>
+        </article>
+      </section>
+      <section class="studio wrap" id="estudio" aria-labelledby="studio-title">
+        <div class="studio-intro"><h2 id="studio-title">Estúdio</h2><p>Somos uma equipe brasileira de engenharia de software. Trabalhamos com lojistas no Flux e mantemos o Nodelizr em código aberto para a comunidade Node.js.</p></div>
+        <div class="studio-notes">
+            <details name="studio">
+              <summary>Design e tecnologias<span aria-hidden="true"></span></summary>
+              <dl>
+                <dt>Design e interfaces</dt><dd>Figma, React, Angular e TypeScript.</dd>
+                <dt>Aplicações e serviços</dt><dd>Node.js, Fastify, NestJS, Java, Spring, PHP e Laravel.</dd>
+                <dt>Entrega</dt><dd>Docker e GitHub Actions.</dd>
+              </dl>
+            </details>
+            <details name="studio" id="content-roadmap">
+              <summary>Nossa trajetória<span aria-hidden="true"></span></summary>
+              <dl>
+                <dt>Janeiro de 2026</dt><dd>Lançamento da infraestrutura inicial e mudança de nome de Zekra para Aethelon.</dd>
+                <dt>Fevereiro de 2026</dt><dd>Abertura de vagas para ampliar a equipe.</dd>
+                <dt>Março a junho de 2026</dt><dd>Documentação e prototipação dos fluxos de venda e gestão que deram forma ao Flux.</dd>
+              </dl>
+            </details>
+        </div>
+      </section>
+
+      <section class="people wrap" id="equipe" aria-labelledby="people-title">
+        <h2 id="people-title">Equipe</h2>
+        <ul class="team">
+          <li>
+            <img src="./assets/people/brunoliratm.webp" width="80" height="80" loading="lazy" alt="">
+            <h3>Bruno Magno</h3><p>Engenharia e estratégia de produto</p>
+            <div class="social"><a href="https://github.com/brunoliratm" aria-label="GitHub de Bruno Magno">GitHub</a><a href="https://www.linkedin.com/in/brunomagnotm/" aria-label="LinkedIn de Bruno Magno">LinkedIn</a></div>
+          </li>
+          <li>
+            <img src="./assets/people/leandrouser.webp" width="80" height="80" loading="lazy" alt="">
+            <h3>Leandro Oliveira</h3><p>Engenharia de software</p>
+            <div class="social"><a href="https://github.com/leandrouser" aria-label="GitHub de Leandro Oliveira">GitHub</a><a href="https://www.linkedin.com/in/leandro-oliveira-a34619278/" aria-label="LinkedIn de Leandro Oliveira">LinkedIn</a></div>
+          </li>
+          <li>
+            <img src="./assets/people/Paulo-Araujo-Jr.webp" width="80" height="80" loading="lazy" alt="">
+            <h3>Paulo de Araújo</h3><p>Engenharia de software</p>
+            <div class="social"><a href="https://github.com/Paulo-Araujo-Jr" aria-label="GitHub de Paulo de Araújo">GitHub</a><a href="https://www.linkedin.com/in/paulo-araujo-dev/" aria-label="LinkedIn de Paulo de Araújo">LinkedIn</a></div>
+          </li>
+          <li>
+            <img src="./assets/people/MrMesquita.webp" width="80" height="80" loading="lazy" alt="">
+            <h3>Marcelo Mesquita</h3><p>Engenharia de software</p>
+            <div class="social"><a href="https://github.com/MrMesquita" aria-label="GitHub de Marcelo Mesquita">GitHub</a><a href="https://www.linkedin.com/in/marcelo-g-mesquita/" aria-label="LinkedIn de Marcelo Mesquita">LinkedIn</a></div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer" id="contato" aria-label="Contato">
+      <div class="wrap footer-inner">
+        <a class="mail" href="mailto:aetheloncontact@gmail.com">aetheloncontact@gmail.com</a>
+        <nav class="footer-base" aria-label="Links do rodapé">
+          <a href="https://github.com/Aethelon">GitHub</a>
+          <a href="#content-home">Voltar ao início <span aria-hidden="true">↑</span></a>
+        </nav>
+      </div>
+    </footer>
+    <script type="module">
+      const notes = document.querySelector(".studio-notes");
+      const headings = [...notes.querySelectorAll("summary")];
+      const descriptions = [...notes.querySelectorAll("dl")];
+      const reservePanelSpace = () => {
+        const headingsHeight = headings.reduce((sum, item) => sum + item.getBoundingClientRect().height, 0);
+        const panelHeights = descriptions.map(item => item.getBoundingClientRect().height);
+        descriptions.forEach((item, index) => {
+          item.closest("details").style.setProperty("--panel-height", panelHeights[index] + "px");
+        });
+        notes.style.minBlockSize = Math.ceil(headingsHeight + Math.max(...panelHeights)) + "px";
+      };
+      const panelSizes = new ResizeObserver(reservePanelSpace);
+      for (const item of [...headings, ...descriptions]) panelSizes.observe(item);
+      reservePanelSpace();
+
+      const film = document.getElementById("flux-film");
+      const replay = document.querySelector(".flux-replay");
+
+      film.addEventListener("ended", () => { replay.hidden = false; });
+      film.addEventListener("playing", () => { replay.hidden = true; });
+      replay.hidden = !film.ended;
+
+      replay.addEventListener("click", async () => {
+        film.currentTime = 0;
+        try {
+          await film.play();
+        } catch {
+          replay.hidden = false;
+        }
+      });
     </script>
   </body>
 </html>
