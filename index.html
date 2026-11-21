@@ -21,7 +21,7 @@
     <meta name="twitter:description" content="Explore Flux for retailers and Nodelizr for Node.js developers.">
     <meta name="twitter:image" content="https://raw.githubusercontent.com/Aethelon/.github/main/profile/assets/aethelon.png">
     <link rel="preload" href="./assets/fonts/playfair-display.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="./styles.css?v=c6a78243">
+    <link rel="stylesheet" href="./styles.css?v=15f8805c">
     <script type="application/ld+json">
       {"@context":"https://schema.org","@type":"Organization","name":"Aethelon Tech","url":"https://aethelon.github.io/","description":"A Brazilian product design and software engineering studio.","email":"aetheloncontact@gmail.com","sameAs":["https://github.com/Aethelon"]}
     </script>
@@ -216,7 +216,7 @@
         descriptions.forEach((item, index) => {
           item.closest("details").style.setProperty("--panel-height", panelHeights[index] + "px");
         });
-        notes.style.minBlockSize = Math.ceil(headingsHeight + Math.max(...panelHeights)) + "px";
+        notes.style.setProperty("--reserved-panel-space", Math.ceil(headingsHeight + Math.max(...panelHeights)) + "px");
       };
       const panelSizes = new ResizeObserver(reservePanelSpace);
       for (const item of [...headings, ...descriptions]) panelSizes.observe(item);

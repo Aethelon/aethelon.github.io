@@ -143,7 +143,7 @@ button.outline:is(:hover, :focus-visible, :active) { border-color: var(--ink); b
   background: linear-gradient(to bottom, var(--paper), var(--sand) 28% 72%, var(--paper));
 }
 @media (width > 40rem) {
-  .studio-notes { order: -1; }
+  .studio-notes { order: -1; min-block-size: var(--reserved-panel-space, auto); }
 }
 .studio-intro p { max-width: 37rem; margin-top: 1rem; font-size: 1.16rem; }
 .studio-notes details::details-content {
